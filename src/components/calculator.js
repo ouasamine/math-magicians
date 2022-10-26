@@ -9,9 +9,10 @@ class Calculator extends React.Component {
   }
 
   render() {
+    const { result } = this.state;
     return (
       <div className="calc-container">
-        <div className="result-preview">{ this.state.result }</div>
+        <div className="result-preview">{ result }</div>
         <div className="calc-cell">AC</div>
         <div className="calc-cell">+/-</div>
         <div className="calc-cell">%</div>
