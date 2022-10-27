@@ -2,18 +2,17 @@
 
 # Math Magicians
 
-> App for mathimatics operations
+> Simple calculator built with Vanilla JavaScript and React.
 
 
 ## Built With
 
-- HTML / CSS
 - JavaScript
-- Webpack
+- React
 
-<!-- ## Live Demo
+## Live Demo
 
-Check [the live version](https://ouasamine.github.io/live) of this project. -->
+Check [the live version](https://ouasamine.github.io/math-magicians) of this project.
 
 ## Getting Started
 
@@ -29,11 +28,11 @@ To get a local copy up and running follow these simple steps.
 
   To clone and run this project on your local machine please Fork the project files from this repository on your machine then on your bash run the following commands inside the project directory: 
 
-1. Run `npm install` To install webpack and project dependencies _(a packet manager is required)_.
+1. Run `npm install` To install all project's dependencies _(a packet manager is required)_.
 
-2. Run `npm run build` To build project files in development mode **OR** `npm run dist` To build project files in production mode _(The destination folder is `/dist`)_.
+2. Run `npm run build` To build project files in development mode _(The destination folder is `/dist`)_.
 
-3. To open the project you can either open the `index.html` inside the `/dist` folder **OR** run `npm run start` To run the project on webpack live server.
+3. To open the project you can either open the `index.html` inside the `/public` folder **OR** `npm run start` To run the project on live server.
 
 
 ## Authors
