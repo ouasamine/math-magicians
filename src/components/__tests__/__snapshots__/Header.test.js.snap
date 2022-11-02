@@ -1,12 +1,70 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Header renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div />
+    <div>
+      <header
+        class="navbar"
+      >
+        <h1
+          class="header"
+        >
+          Math Magicians
+        </h1>
+        <nav
+          class="navlinks"
+        >
+          <a
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            href="/calculator"
+          >
+            Calculator
+          </a>
+          <a
+            href="/quote"
+          >
+            Quote
+          </a>
+        </nav>
+      </header>
+    </div>
   </body>,
-  "container": <div />,
+  "container": <div>
+    <header
+      class="navbar"
+    >
+      <h1
+        class="header"
+      >
+        Math Magicians
+      </h1>
+      <nav
+        class="navlinks"
+      >
+        <a
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          href="/calculator"
+        >
+          Calculator
+        </a>
+        <a
+          href="/quote"
+        >
+          Quote
+        </a>
+      </nav>
+    </header>
+  </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
   "findAllByDisplayValue": [Function],

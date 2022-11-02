@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 function Calculator() {
   const [state, setState] = useState({ total: 0 });
   function btnClick(e) {
-    setState((state) => calculate(state, e.target.innerText));
+    setState((state) => calculate(state, e.target.innerHTML));
   }
 
   const { total, next, operation } = state;
@@ -13,7 +13,7 @@ function Calculator() {
       <div className="calc-page-wrapper">
         <p className="calc-banner">Let&#39;s do some math!</p>
         <div className="calc-container">
-          <div className="result-preview">
+          <div className="result-preview" data-testid="resultPreview">
             { total }
             { operation }
             { next }
