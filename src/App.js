@@ -4,7 +4,6 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import './App.css';
 import Calculator from './components/calculator';
 import Home from './components/Home';
 import Quote from './components/Quote';
