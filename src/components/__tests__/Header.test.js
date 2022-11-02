@@ -4,18 +4,16 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import Header from '../Header';
 
 it('renders correctly', () => {
-  const tree = renderer
-    .create(
-      <Router>
-        <Routes>
-          <Route element={<Header />} />
-        </Routes>
-      </Router>,
-    )
-    .toJSON();
-  expect(tree).toMatchSnapshot();
+  const Component = render(
+    <Router>
+      <Routes>
+        <Route element={<Header />} />
+      </Routes>
+    </Router>,
+  );
+  expect(Component).toMatchSnapshot();
 });
