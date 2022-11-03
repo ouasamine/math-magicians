@@ -5,6 +5,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Calculator from './components/calculator';
+import Header from './components/Header';
 import Home from './components/Home';
 import Quote from './components/Quote';
 
@@ -17,6 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
+        <Header />
         <Routes>
           <Route path="/quote" element={<Quote />} />
           <Route path="/calculator" element={<Calculator />} />

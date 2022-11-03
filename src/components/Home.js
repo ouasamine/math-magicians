@@ -1,9 +1,7 @@
 import React from 'react';
-import Header from './Header';
 
 const Home = () => (
   <>
-    <Header />
     <h2 className="home-title">Welcome to our page</h2>
     <p className="home-text">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed vestibulum erat.
