@@ -17,7 +17,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/math-magicians">
         <Header />
         <Routes>
           <Route path="/quote" element={<Quote />} />
