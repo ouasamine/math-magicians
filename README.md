@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-Check [the live version](https://6363c66036c6720405ed1136--math-magicians-e85fd7.netlify.app/) of this project.
+Check [the live version](https://ouasamine.github.io/math-magicians/) of this project.
 
 ## Getting Started
 
